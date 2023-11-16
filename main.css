@@ -1,7 +1,7 @@
 .topnav {
     background-color: #e9e9e9;
-    max-width: 1170px;
     padding: 0 3.0em;
+    height: 125px;
 }
 
 #search {
@@ -76,7 +76,7 @@ h2 {
 }
 .foot {
     background-color: bisque;
-    height: 50px;
+    height: 60px;
     padding: 10px;
     margin: 2px;
 }
@@ -87,6 +87,7 @@ h2 {
    display: inline-block;
    position: relative;
    padding: 20px;
+   text-align: center;
 }
 
 .abaya {
@@ -101,3 +102,33 @@ h2 {
     bottom: 15em;
 }
 
+button {
+    background-color: #86daf7;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #aedae9;
+}
+
+.Add {
+    font-size: small;
+    padding: 5px;
+}
+
+.foot li {
+    display: inline;
+    text-align: center;
+    position: relative;
+    padding-right: 30px;
+    cursor: pointer;
+    float: right;
+    bottom: 2em;
+}
+
+.back {
+   text-align: center;
+   position: relative;
+   top: 20px;
+}
